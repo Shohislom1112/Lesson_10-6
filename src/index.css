@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    color: black;
+    transition: 15s;
+}
+:hover .active {
+    color:  rgb(255, 68, 68);
+
+}
