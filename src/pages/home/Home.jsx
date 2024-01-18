@@ -8,7 +8,7 @@ const Home = () => {
         <p className="p1">New Arrival</p>
         <p className="p2">Discover Our New Collection</p>
         <p className="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-        <button className='but1'>BUY Now</button>
+        <button className='btn btn-outline-warning '>BUY Now</button>
       </div>
     </section>
   </div>;
