@@ -1,0 +1,52 @@
+.p1 {
+    color: var(--Font-Color, #333);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+.p2 {
+    width: 559px;
+    height: 127px;
+    flex-shrink: 0;
+    color: var(--Primary, #B88E2F);
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px; /* 125% */
+}
+.p3 {
+    width: 546px;
+    height: 52px;
+    flex-shrink: 0;
+    color: var(--Font-Color, #333);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 133.333% */
+}
+.but1 {
+    color: #ffffff;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+padding: 25px 72px;
+align-items: flex-start;
+gap: 10px;
+background-color: antiquewhite;
+transition: 1.8s;
+    
+}
+:hover .but1 {
+    color: #333;
+    background: #B88E2F;
+}

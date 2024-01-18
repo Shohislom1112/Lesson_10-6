@@ -3,6 +3,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import {NavLink, Link} from 'react-router-dom'
 
+// import {man, savat, search, yurak} from '../../public/images'
+
 const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
@@ -23,6 +25,12 @@ const Header = () => {
             <Nav.Link>
               <NavLink to="/contact">Contact</NavLink>
             </Nav.Link>
+          </Nav>
+          <Nav className="ms-auto" >
+            {/* <img src={man} alt="" />
+            <img src={search} alt="" />
+            <img src={yurak} alt="" />
+            <img src={savat} alt="" /> */}
           </Nav>
         </Navbar.Collapse>
       </div>

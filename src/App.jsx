@@ -2,9 +2,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.scss";
 import "./App.css";
-import Home from "./pages/Home";
-import Shop from "./pages/Shop";
-import SinglProduckt from "./pages/SinglProduckt";
+import Home from "./pages/home/Home";
+import Shop from "./pages/shop/Shop";
+import SinglProduckt from "./pages/singleproduckt/SinglProduckt";
 import Header from "./components/Header";
 // import Home from "./pages/home/Home";
 // import Home from "./pages/home/Home";
